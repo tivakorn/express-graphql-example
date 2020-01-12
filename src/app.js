@@ -7,6 +7,9 @@ import qraphqlMiddleware from 'express-graphql'
 // Schemas
 import { buildSchema } from 'graphql'
 
+// Json
+import customer from './customer'
+
 const app = express()
 
 const schema = buildSchema(` 
